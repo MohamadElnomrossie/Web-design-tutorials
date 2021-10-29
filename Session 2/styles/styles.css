@@ -1,0 +1,41 @@
+
+*{
+    margin:0
+}
+.main{
+    height:800px;
+    background:linear-gradient(#0005,#0005),url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing:content-box
+}
+.lower{
+    height:800px;
+    background:linear-gradient(#0005,#0005),url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing:content-box
+}
+.body{
+    height: 200px;
+    background-color: black;
+}
+.listItem{
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+.listItem a{
+    text-decoration: none;
+    color:white
+    
+}
+
+ .bodyDiv{
+     height:150px;
+     width:200px;
+     background-color:red;
+     display:inline-block;
+ }
