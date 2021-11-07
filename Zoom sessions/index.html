@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <script src="./js/bootstrap.js"></script>
+</head>
+<body>
+    <div class='col-xxl-4 col-xl-5 col-lg-5 col-md-6 col-sm-8 col-10 m-auto mt-5 p-3 border border-1 rounded'>
+        <form>
+            <input class="form-control m-auto my-3" id="first" type="number" placeholder="First Number"/>
+            <input class="form-control m-auto my-3" id="second" type="number" placeholder="Second Number"/>
+            <div class="text-center">
+                <button onclick="add()" class="btn btn-primary" type="button">+</button>
+                <button onclick="sub()" class="btn btn-primary" type="button">-</button>
+                <button onclick="div()" class="btn btn-primary" type="button">/</button>
+                <button onclick="mult()" class="btn btn-primary" type="button">*</button>
+                <br/>
+                <label>Total &nbsp;&nbsp;&nbsp;<span id="total"></span></label>
+            </div>
+        </form>
+    </div>
+    <script src="./js/myScript.js"></script>
+</body>
+</html>
